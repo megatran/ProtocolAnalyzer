@@ -12,14 +12,16 @@ Skeleton code and support provided by Professor Phil Romig (Computer Networks 20
 
 ================================
 
-###Compile the program:
+
+### Compile the program:
 ```
 make
 ```
 
 ================================
 
-###Command line options:
+
+### Command line options:
 ```
   -f <filename>, where filename is the pcap file to process.
   -d #, Turn on debugging messages. The is a digit that indicates how verbose the messages should be. While you must accept the digit, you don’t have to adjust the verbosity if you don’t want to.
@@ -30,7 +32,8 @@ make
 ```
 
 ================================
-###How to run:
+
+### How to run:
 
 ```
 ./packetstats -f ./sampleCaptureFiles/stp.pcap -m -a -t -u
@@ -39,7 +42,7 @@ make
 ./packetstats -f sample.pcap -m -a -t -u
 ```
 ================================
-###Sample Output:
+### Sample Output:
 
 ```
 ethernet:
