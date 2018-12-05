@@ -12,8 +12,8 @@
 
 // ****************************************************************************
 // * main()
-// *  You should not have to worry about anything if you don't want to.
-// *  My code will open the file, initalize the results container class,
+// *
+// *  Open the file, initalize the results container class,
 // *  call pk_processor() once for each packet and the finally call
 // *  the displayResutls() method.
 // ****************************************************************************
@@ -62,7 +62,7 @@ int main (int argc, char **argv)
                 displayUDP = true;
                 break;
             case 't':
-                displayTCP = true;
+                displgit resetayTCP = true;
                 break;
             case ':':
             case '?':

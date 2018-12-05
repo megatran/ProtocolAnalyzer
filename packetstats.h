@@ -1,6 +1,5 @@
-//
-// Created by Phil Romig on 10/30/18.
-//
+//  Skeleton code by Phillip Romig on 4/3/12.
+//  Solution implemented by Nhan Tran on December 2018
 
 #ifndef PACKETSTATS_PACKETSTATS_H
 #define PACKETSTATS_PACKETSTATS_H
