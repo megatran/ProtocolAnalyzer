@@ -4,7 +4,6 @@
 //
 //  Skeleton code by Phillip Romig on 4/3/12.
 //  Solution implemented by Nhan Tran on December 2018
-//  Copyright 2012 Colorado School of Mines. All rights reserved.
 //
 
 #include "packetstats.h"
@@ -62,12 +61,12 @@ int main (int argc, char **argv)
                 displayUDP = true;
                 break;
             case 't':
-                displgit resetayTCP = true;
+                displayTCP = true;
                 break;
             case ':':
             case '?':
             default:
-                std::cout << "useage: " << argv[0] << " -f <cpautre file name> -d <debug level> -m -a -u -t" << std::endl;
+                std::cout << "useage: " << argv[0] << " -f <cpautremy file name> -d <debug level> -m -a -u -t" << std::endl;
                 std::cout << "        -m list unique MAC addressses" << std::endl;
                 std::cout << "        -a list unique IPv4 addressses" << std::endl;
                 std::cout << "        -u list unique UDP ports" << std::endl;

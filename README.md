@@ -39,7 +39,7 @@ make
 ./packetstats -f ./sampleCaptureFiles/stp.pcap -m -a -t -u
 ```
 ```
-./packetstats -f sample.pcap -m -a -t -u
+./packetstats -f ./sampleCaptureFiles/sample.pcap -m -a -t -u
 ```
 ================================
 ### Sample Output:
